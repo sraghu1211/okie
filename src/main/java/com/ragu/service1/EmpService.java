@@ -60,7 +60,7 @@ public String update(Employee employe) {
 		throw new NoSuchEmployeeExistException("EMPL");
 	}
 }
-
+//sd
 public String delete(int emp_id) {
 	Employee exist=emp.findById(emp_id).orElse(null);
 	if(exist!=null) {
