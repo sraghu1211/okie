@@ -1,0 +1,17 @@
+2023-04-12T13:21:58.187+05:30  INFO 125824 --- [main] com.ragu.MokitoTest                      : Starting MokitoTest using Java 17.0.6 with PID 125824 (started by raghunandhan.s in C:\Users\raghunandhan.s\Documents\projectredis\SPRINGPROJECT)
+2023-04-12T13:21:58.199+05:30  INFO 125824 --- [main] com.ragu.MokitoTest                      : No active profile set, falling back to 1 default profile: "default"
+2023-04-12T13:21:58.466+05:30  INFO 125824 --- [main] com.ragu.MokitoTest                      : Started MokitoTest in 0.646 seconds (process running for 2.469)
+2023-04-12T13:24:14.479+05:30  INFO 113840 --- [main] com.ragu.Restapi1ApplicationTests        : Starting Restapi1ApplicationTests using Java 17.0.6 with PID 113840 (started by raghunandhan.s in C:\Users\raghunandhan.s\Documents\projectredis\SPRINGPROJECT)
+2023-04-12T13:24:14.492+05:30  INFO 113840 --- [main] com.ragu.Restapi1ApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-04-12T13:24:15.102+05:30  INFO 113840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-12T13:24:15.105+05:30  INFO 113840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-12T13:24:15.530+05:30  INFO 113840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 412 ms. Found 1 JPA repository interfaces.
+2023-04-12T13:24:15.650+05:30  INFO 113840 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-04-12T13:24:16.092+05:30  INFO 113840 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:73381e3f-9bc6-4ac0-9266-99bbdfd71d2f;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-04-12T13:24:16.595+05:30  INFO 113840 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-12T13:24:16.690+05:30  INFO 113840 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-12T13:24:17.203+05:30  INFO 113840 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-12T13:24:18.340+05:30  INFO 113840 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-12T13:24:18.356+05:30  INFO 113840 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-12T13:24:18.937+05:30  INFO 113840 --- [main] com.ragu.Restapi1ApplicationTests        : Started Restapi1ApplicationTests in 5.004 seconds (process running for 6.894)
+2023-04-12T13:24:20.238+05:30  INFO 113840 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
