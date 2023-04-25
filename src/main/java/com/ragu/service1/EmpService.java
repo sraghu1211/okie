@@ -57,7 +57,7 @@ public String update(Employee employe) {
 	return "RECORD HAS BEEN UPDATED";
 	}
 	else {
-		throw new NoSuchEmployeeExistException("EMPLOYEE NOT EXIST");
+		throw new NoSuchEmployeeExistException("EMPL");
 	}
 }
 
