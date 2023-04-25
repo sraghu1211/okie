@@ -68,7 +68,7 @@ public String delete(int emp_id) {
 		 return "Employee got deleted";
 	}
 	else {
-		throw new NoSuchEmployeeExistException("Employee not exist");
+		throw new NoSuchEmployeeExistException("Employ");
 	}
 	
 	
