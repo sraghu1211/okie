@@ -61,11 +61,12 @@ public String update(Employee employe) {
 	}
 }
 //sd
+
 public String delete(int emp_id) {
 	Employee exist=emp.findById(emp_id).orElse(null);
 	if(exist!=null) {
 		 emp.deleteById(emp_id);
-		 return "Employee got deleted";
+		 return "Employee g";
 	}
 	else {
 		throw new NoSuchEmployeeExistException("Employ");
